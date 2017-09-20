@@ -157,7 +157,7 @@ gulp.task('copy:normalize', () =>
 gulp.task( 'modernizr', (done) =>{
 
     modernizr.build(modernizrConfig, (code) => {
-        fs.writeFile(`${dirs.dist}/js/vendor/modernizr-${pkg.devDependencies.modernizr}.min.js`, code, done);
+        fs.writeFile(`${dirs.dist}/javascript/vendor/modernizr-${pkg.devDependencies.modernizr}.min.js`, code, done);
     });
 
 });

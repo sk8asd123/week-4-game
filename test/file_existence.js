@@ -42,17 +42,17 @@ const expectedFilesInDistDir = [
 
     'icon.png',
 
-    'img/',
-        'img/.gitignore',
+    'images/',
+        'images/.gitignore',
 
     'index.html',
 
-    'js/',
-        'js/main.js',
-        'js/plugins.js',
-        'js/vendor/',
-            `js/vendor/jquery-${pkg.devDependencies.jquery}.min.js`,
-            `js/vendor/modernizr-${pkg.devDependencies.modernizr}.min.js`,
+    'javascript/',
+        'javascript/main.js',
+        'javascript/plugins.js',
+        'javascript/vendor/',
+            `javascript/vendor/jquery-${pkg.devDependencies.jquery}.min.js`,
+            `javascript/vendor/modernizr-${pkg.devDependencies.modernizr}.min.js`,
 
     'LICENSE.txt',
     'robots.txt',
